@@ -2,7 +2,7 @@ package org.poem.pagingsort;
 
 import org.jooq.Condition;
 import org.jooq.impl.TableRecordImpl;
-import org.poem.data.Repository;
+import org.poem.data.RepositoryImpl;
 import org.poem.data.domain.PageImpl;
 import org.poem.data.domain.Pageable;
 
@@ -14,7 +14,7 @@ import java.util.List;
  * find and sort
  * @author poem
  */
-public class PagingAndSortingRepository<T extends TableRecordImpl<T>, ID extends Serializable> extends Repository<T, ID> {
+public class PagingAndSortingRepositoryImpl<T extends TableRecordImpl<T>, ID extends Serializable> extends RepositoryImpl<T, ID> {
 
 
     /**
@@ -23,7 +23,9 @@ public class PagingAndSortingRepository<T extends TableRecordImpl<T>, ID extends
      * @param <S>
      * @return
      */
-    <S extends T> PageImpl<S> findAll(Pageable pageable);
+    <S extends T> PageImpl<S> findAll(Pageable pageable){
+
+    }
 
 
     /**
@@ -34,5 +36,7 @@ public class PagingAndSortingRepository<T extends TableRecordImpl<T>, ID extends
      * @param <S>
      * @return
      */
-    <S extends T> PageImpl<S> findConditionPageSorting(List<Condition> conditions, Pageable pageable);
+    <S extends T> PageImpl<S> findConditionPageSorting(List<Condition> conditions, Pageable pageable){
+
+    }
 }

@@ -13,7 +13,9 @@ public class PageImpl<T> implements Page{
      *
      * @return
      */
-    int getTotalPages();
+    int getTotalPages(){
+
+    }
 
 
     /**
@@ -21,7 +23,9 @@ public class PageImpl<T> implements Page{
      *
      * @return
      */
-    long getTotalElements();
+    long getTotalElements(){
+
+    }
 
     /**
      * @param converter
@@ -29,5 +33,7 @@ public class PageImpl<T> implements Page{
      * @return
      * @since 1.8
      */
-    <U> PageImpl<U> map(Function<? super T, ? extends U> converter);
+    <U> PageImpl<U> map(Function<? super T, ? extends U> converter){
+
+    }
 }
