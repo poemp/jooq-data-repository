@@ -11,5 +11,11 @@
 
     <artifactId>data-repository</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>data-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
