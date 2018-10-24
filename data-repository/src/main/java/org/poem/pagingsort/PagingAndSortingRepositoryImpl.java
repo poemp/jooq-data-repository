@@ -1,7 +1,5 @@
 package org.poem.pagingsort;
 
-import org.jooq.Condition;
-import org.jooq.impl.TableRecordImpl;
 import org.poem.data.RepositoryImpl;
 import org.poem.data.domain.PageImpl;
 import org.poem.data.domain.Pageable;

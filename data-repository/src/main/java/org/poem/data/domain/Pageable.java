@@ -12,19 +12,25 @@ public class Pageable {
      *
      * @return
      */
-    Integer getPageNumber();
+    Integer getPageNumber(){
+
+    }
 
     /**
      * 获取页大小
      *
      * @return
      */
-    Integer getPageSize();
+    Integer getPageSize(){
+
+    }
 
     /**
      * 获取排序
      *
      * @return
      */
-    SortField<?> getSort();
+    SortField<?> getSort(){
+
+    }
 }

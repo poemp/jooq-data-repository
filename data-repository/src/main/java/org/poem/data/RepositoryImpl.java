@@ -20,8 +20,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      *
      * @return
      */
-    Long count(){
-
+    Long count() {
     }
 
     /**
@@ -29,14 +28,14 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      *
      * @param entity 实体
      */
-    void delete(T entity){
+    void delete(T entity) {
 
     }
 
     /**
      * 删除全部数据
      */
-    void deleteAll(){
+    void deleteAll() {
 
     }
 
@@ -45,7 +44,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      *
      * @param entities
      */
-    void deleteAll(Iterable<? extends T> entities){
+    void deleteAll(Iterable<? extends T> entities) {
 
     }
 
@@ -54,7 +53,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      *
      * @param id id
      */
-    void deleteById(ID id){
+    void deleteById(ID id) {
 
     }
 
@@ -64,7 +63,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param id id
      * @return
      */
-    Boolean existsById(ID id){
+    Boolean existsById(ID id) {
 
     }
 
@@ -74,7 +73,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      *
      * @return
      */
-    <T> List<T> findAll(){
+    <T> List<T> findAll() {
 
     }
 
@@ -84,7 +83,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param ids ids
      * @return
      */
-    <T> List<T> findAllById(Iterable<ID> ids){
+    <T> List<T> findAllById(Iterable<ID> ids) {
 
     }
 
@@ -96,7 +95,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param <T> 返回数据
      * @return
      */
-    <T> T findById(ID id){
+    <T> T findById(ID id) {
 
     }
 
@@ -107,7 +106,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param entity 数据
      * @param <S>    类型
      */
-    <S extends T> void save(S entity){
+    <S extends T> void save(S entity) {
 
     }
 
@@ -119,7 +118,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param <S>      类型
      * @return
      */
-    <S extends T> List<S> saveAll(Iterable<S> entities){
+    <S extends T> List<S> saveAll(Iterable<S> entities) {
 
     }
 
@@ -131,7 +130,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param <S>        数据类型
      * @return
      */
-    <S extends T> List<S> findAllByConditions(List<Condition> conditions){
+    <S extends T> List<S> findAllByConditions(List<Condition> conditions) {
 
     }
 
@@ -142,7 +141,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param <S>       数据类型
      * @return
      */
-    <S extends T> List<S> findAllByCondition(Condition condition){
+    <S extends T> List<S> findAllByCondition(Condition condition) {
 
     }
 
@@ -155,7 +154,7 @@ public class RepositoryImpl<T extends TableRecord<T>, ID extends Serializable> {
      * @param <S>        数据
      * @return
      */
-    <S extends T> List<S> findSorting(List<Condition> conditions, Collection<SortField<?>> sortFields){
+    <S extends T> List<S> findSorting(List<Condition> conditions, Collection<SortField<?>> sortFields) {
 
     }
 }
