@@ -19,10 +19,9 @@
 
     <modules>
         <module>data-api</module>
-        <module>data-repository</module>
-        <module>data-repository</module>
-        <module>data-test</module>
         <module>data-config</module>
+        <module>data-test</module>
+        <module>data-repository</module>
     </modules>
     <!-- properties -->
     <properties>
